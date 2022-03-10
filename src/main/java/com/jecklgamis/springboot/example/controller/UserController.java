@@ -22,7 +22,7 @@ class UserController {
 
     @RequestMapping(path = {"/{id}"}, method = {GET}, produces = {"application/json", "application/xml"})
     public User get(@PathVariable String id) {
-        return new User("me", "me@example.com");
+        return new User("Gopi", "prgopinath@gmail.com");
     }
 
     @RequestMapping(method = {PUT, POST}, produces = {"application/json", "application/xml"},
