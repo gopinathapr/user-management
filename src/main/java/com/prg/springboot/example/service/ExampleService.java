@@ -1,4 +1,4 @@
-package com.jecklgamis.springboot.example.service;
+package com.prg.springboot.example.service;
 
 public interface ExampleService {
     void someServiceMethod();
