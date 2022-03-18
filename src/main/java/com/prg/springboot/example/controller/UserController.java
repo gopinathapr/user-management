@@ -16,7 +16,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 class UserController {
     private final Logger log = LoggerFactory.getLogger(UserController.class);
 
-    @GetMapping(path = "/{id}")
+    @GetMapping(path = "/{id}", produces = "application/json")
     public User fetchUser(@PathVariable int id) {
         return new User(id, "Gopinatha P R ", "prgopinath@gmail.com");
     }
